@@ -1,0 +1,161 @@
+/* 1- flex */
+body {
+    padding-bottom: 500px;
+}
+.flex{
+    display: flex;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+/* 2-Flex-direction */
+/* idependente do codigo ele vai seguir esta regra */
+.flex-direction{
+    display: flex;
+    background-color: rgb(46, 124, 124);
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+/* 3- Wrap */
+.wrap{
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 40px;
+}
+.box{
+    height: 40px;
+    width: 33%;
+    background-color: #ccc;
+    border: 1px solid red;
+}
+/* 4- justify Content */
+.center,
+.SC-AROUND,
+.SC-Between,
+.end{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.center .box,
+.SC-AROUND .box,
+.SC-Between .box,
+.end .box{
+    width: 50px;
+}
+.center{
+    justify-content: center;
+}
+.SC-AROUND{
+    justify-content: space-around;
+}
+.SC-Between{
+    justify-content: space-between;
+}
+.end{
+    justify-content: end;
+}
+/* 5- Align Items */
+.align-center,
+.stretch,
+.Flex-end{
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+.align-center .box,
+.stretch .box,
+.Flex-end .box{
+    width: 50px;
+}
+/* no centro do eixo vertical */
+.align-center{
+    align-items: center;
+}
+.Flex-end{
+    align-items: flex-end;
+}
+.stretch{
+    align-items: stretch;
+}
+.stretch .box{
+    height: auto;
+}
+/* 6- GAP */
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid gray;
+    gap: 10px;
+}
+.gap .box{
+    width: 32%;
+}
+/* 7- Order */
+.order{
+    display: flex;
+}
+#One{
+    order: 1;
+}
+#Two{
+    order: 2;
+
+}
+#three{
+    order: 3;
+}
+/* 8- Grow */
+.grow{
+    display: flex;
+}
+.grow .box{
+    flex: 1;
+}
+.grow .big{
+    flex: 2;
+}
+/* 9- Basis */
+.basis{
+    display: flex;
+}
+.basis .box{
+    flex-basis: 20px;
+}
+.basis .big{
+    flex-grow: 1;
+}
+/* 10-Shrink */
+.shrink{
+    display: flex;
+}
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+.shrink .small{
+    flex-shrink: 2;
+}
+/* 11- shorthand */
+.shorthand{
+    display: flex;
+}
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+.shorthand .different{
+    flex: 3 1 400px;
+}
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: end;
+    border: 1px solid red;
+}
+.auto-alignment .different{
+    align-self: center;
+}
