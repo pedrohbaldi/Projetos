@@ -1,0 +1,137 @@
+.main-container{
+    background-color: #f0EEE9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-style: helvetica;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    color: #333;
+}
+p{
+    color: #70747a;
+}
+.navbar-conteiner{
+    width: 100%;
+    height: 80px;
+    background-color: #17184b;
+    padding: 0 2rem;
+}
+.Logo_Trinova{
+    width: 80px;
+    margin-top: 15px;
+}
+  
+/* Banner provisório */
+.main-banner{
+    background-image: url(../Trinova_Project/img/mainbanner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 40px;
+    display: inline-block;
+}
+.main-banner h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+
+}
+.main-banner p{
+     color: #fff;
+    text-align: center;
+    font-size: 25px;
+
+}
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 250px;
+    display: inline-block;
+}
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+.navbar-items a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.Divisória{
+background-color: #d3dde7;
+height: 260px;
+}
+.Divisória p{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Cards ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.Cards li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;   
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 100px;
+}
+/* Contact area */
+.contact-container{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+.contact-container h2{
+    font-size: 36px;
+}
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin: 0 10px 20px;
+}
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+
+}
+.contact-container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #FFF;
+    cursor: pointer;
+    opacity: .9;
+}
+.contact-container input[type="submit"]:hover{
+    background-color: #2cc762;
+    opacity: 1;
+}
